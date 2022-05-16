@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section.about_us{
+    background-color: #FAFAFA;
+    padding-top: 100px;
+}
+.about_us .row .about_content {
+    display: flex;
+}
+.about_us .row .about_content{
+    background: #fff;
+}
+.about_us .about_content .left_side{
+    max-width: 659px;
+    padding: 53px 53px 53px 64px;
+}
+.about_us .about_content .left_side p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: left;
+}
+.about_us .about_content .right_side{
+    width: 481px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+
+}
+.about_us .about_content .right_side img{
+    position:absolute;
+    width: 184.52px;
+    height: 164.01px;
+    left: -28px;
+    top: -69px;
+    opacity: .5;
+}
+.about_us .container h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #07B3C5;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+.about_us .container h3 span{
+    color: #193C48;
+}
+.about_us .container p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #748B91;
+    max-width: 1063px;
+    margin: 0 auto;
+    mar
+}
+.about_us .container .about_cta{
+    display: flex;
+    background: #ECFDFF;
+    padding: 31px 70px 25px 65px;
+    max-width:1016px;
+    margin:0 auto;
+    margin-top:40px;
+}
+.about_us .container .about_cta span{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    color: #193C48;
+    text-align: left;
+}
+.about_us .container .about_cta .cta_logo{
+    display: flex;
+}
+.logo_left {
+    padding-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #748B91;
+}
+.logo_right {
+    padding-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
